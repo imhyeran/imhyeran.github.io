@@ -1,7 +1,6 @@
 source 'https://rubygems.org'
 
 gem 'jekyll','~>3.5'
-gem 'adam-blog-master'
 
 group :jekyll_plugins do
   gem "jekyll-paginate"
