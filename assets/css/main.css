@@ -861,8 +861,8 @@ pre code {
 }
 
 .wrapper {
-  width: 960px;
-  max-width: 90%;
+  width: 100%;
+  /*max-width: 90%;*/
   margin: 0 auto;
   position: relative;
 }
@@ -890,7 +890,7 @@ pre code {
 /* = = = = = = = = = = Header Styles = = = = = = = = = = */
 .main-header {
   font-family: 'Lato', sans-serif;
-  padding: 15px 0;
+  padding: 15px 50px;
   background-color: #fff;
   -webkit-box-shadow: 0px -5px 15px rgba(0, 0, 0, 0.3);
           box-shadow: 0px -5px 15px rgba(0, 0, 0, 0.3);
@@ -1064,7 +1064,7 @@ pre code {
 
 /* = = = = = = = = = = Post-Card Styles = = = = = = = = = = */
 .post-card-box {
-  margin: 100px 0 100px;
+  margin: 0;
   padding: 0;
 }
 
@@ -1072,7 +1072,7 @@ pre code {
   position: relative;
   list-style: none;
   float: left;
-  width: 50%;
+  width: 100%;
   -webkit-transition: all .3s;
   transition: all .3s;
 }
@@ -1108,7 +1108,7 @@ pre code {
 .post-card .post-card-body {
   position: absolute;
   left: 5%;
-  bottom: 5%;
+  bottom: 37%;
 }
 
 .post-card .post-card-body .post-card-link {
@@ -1282,7 +1282,7 @@ pre code {
   position: relative;
   display: inline-block;
   width: 24%;
-  height: 150px;
+  height: 300px;
   margin-left: 0.5%;
   margin-bottom: 0.5%;
   -webkit-transition: all .3s;
@@ -1637,7 +1637,7 @@ pre code {
   }
   .post-card-box li {
     width: 100%;
-    margin-bottom: 20px;
+    /*margin-bottom: 20px;*/
   }
   .post-card-box li:last-child {
     margin-bottom: 0;
@@ -1661,7 +1661,7 @@ pre code {
 
 @media only screen and (max-width: 480px) {
   .wrapper {
-    max-width: 95%;
+    max-width: 100%;
   }
   .page-content {
     margin-top: -50px;
